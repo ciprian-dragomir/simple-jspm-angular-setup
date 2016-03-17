@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.main-content {
+  width: 80%;
+  min-width: 600px;
+  min-height: 300px;
+  background: url("assets/patterns/white_carbon.png") repeat;
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 2px solid #DDD;
+  padding: 10px; }

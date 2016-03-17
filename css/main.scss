@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+@function getPatternURL($pattern, $extension: 'png') {
+  @return 'assets/patterns/' + $pattern + '.' + $extension;
+}
+
+.main-content {
+  width: 80%;
+  min-width: 600px;
+  min-height: 300px;
+  background: url(getPatternURL('white_carbon')) repeat;
+  margin: 20px auto;
+
+  border-radius: 20px;
+  border: 2px solid #DDD;
+  padding: 10px;
+}
